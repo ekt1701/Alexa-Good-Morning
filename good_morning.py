@@ -322,7 +322,7 @@ def fullname(shortday):
 def getHumidity(intent, session):
     session_attributes = {}
     card_title = "Humidity"
-    humidityReport = reportForecast()
+    humidityReport = reportHumidity()
     speech_output =  humidityReport + "  Would you like to hear something else?"
     reprompt_text = "Audio error, please repeat your request."
     should_end_session = False
