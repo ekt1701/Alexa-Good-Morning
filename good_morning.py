@@ -132,7 +132,6 @@ def get_welcome_response():
 
     for row in contents:
         greeting = row[0]
-        #print (greeting)
         for element in row:
             if element == "todo":
                 report = reportTodo()
