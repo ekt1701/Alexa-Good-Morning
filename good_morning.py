@@ -518,7 +518,7 @@ def reportAirQuality():
         o3_value = aqicn_data['iaqi']['o3']['val']
         co_value = aqicn_data['iaqi']['co']['val']
         no2_value = aqicn_data['iaqi']['no2']['val']
-        airQualityReport = "On " + str(date) +  ", the aqi as " + str(aqi_value) + ", which is " + rating + ". The ozone level was " + str(o3_value) + ". The carbon monoxide level was " + str(co_value) + ". The sulfur dioxide level was " + str(no2_value)
+        airQualityReport = "On " + str(date) +  ", the aqi is " + str(aqi_value) + ", which is " + rating + ". The ozone level was " + str(o3_value) + ". The carbon monoxide level was " + str(co_value) + ". The sulfur dioxide level was " + str(no2_value)
     else:
         airQualityReport = "The Air quality feed appears to be down, please try again later."
     return airQualityReport
