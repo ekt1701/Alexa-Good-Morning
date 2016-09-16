@@ -1,0 +1,65 @@
+AMAZON.HelpIntent i dont know
+AMAZON.HelpIntent what can i say
+
+AMAZON.NoIntent no thank you
+
+getHumidIntent whats the humidity
+getHumidIntent humidity
+getHumidIntent how humid is it
+
+getPressureIntent whats the pressure
+getPressureIntent pressure
+
+getCurrentIntent weather
+getCurrentIntent current conditions
+
+getForecastIntent forecast
+getForecastIntent whats the forecast
+
+getAstronomyIntent astronomy
+getAstronomyIntent sunrise
+getAstronomyIntent sunset
+
+getSurfIntent surf
+getSurfIntent waves
+getSurfIntent surf conditions
+
+getEarthquakeIntent earthquake
+getEarthquakeIntent earthquakes
+getEarthquakeIntent any earthquakes
+getEarthquakeIntent did the ground shake
+
+getAirQualityIntent whats the air quality
+getAirQualityIntent air quality
+getAirQualityIntent hows the air
+
+getHeadlineNewsIntent local news
+getHeadlineNewsIntent local
+getHeadlineNewsIntent los angeles
+
+getRandomQuoteIntent random quote
+getRandomQuoteIntent give me a quote
+getRandomQuoteIntent quote
+
+getJokeIntent tell me a joke
+getJokeIntent joke
+getJokeIntent say something funny
+
+getCatFactsIntent cat facts
+getCatFactsIntent tell me a fact about cats
+getCatFactsIntent cats
+
+getStocksIntent stocks
+getStocksIntent hows the dow
+getStocksIntent dow jones
+
+getTrafficIntent whats the traffic
+getTrafficIntent traffic
+getTrafficIntent hows the traffic
+
+getTodoIntent what is on my to do list
+getTodoIntent to do
+getTodoIntent whats my plans
+
+getRepeatIntent repeat
+getRepeatIntent say again
