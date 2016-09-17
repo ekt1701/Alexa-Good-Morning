@@ -10,3 +10,8 @@ I have also included an others modules.  These items require you to register for
 
 If you have other useful or fun API's, please let me know.
 
+The configuration is Runtime: Python 2.7, Handler: lambda_function.lambda_handler, Existing Role: lambda_basic_execution. The code is entered in-line.
+
+Possibly to do:
+Allowing the skill to select different csv configurations depending on the time or day of the week.
+
