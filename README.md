@@ -4,9 +4,9 @@ This skill allows you to customize Alexa's response using a csv file.  You can s
 
 Currently you can select from these items: todo, traffic, weather, forecast, humidity, pressure, astronomy, surf, quake, air, news, stocks, quote, joke or cat.
 
-The todo and traffic require a separate csv file.
+The todo and traffic require a separate csv file.  Sample files are posted.
 
-I have also included an addition modules.  These items require you to register for an API key to use those services.
+I have also included an others modules.  These items require you to register for an API key to use those services.
 
 If you have other useful or fun API's, please let me know.
 
