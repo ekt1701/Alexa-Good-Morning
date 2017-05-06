@@ -582,11 +582,11 @@ def reportHeadlineNews():
                 result = result.replace("&mdash;", " ").replace("&rdquo;", " ").replace('&#38;', ' and ').replace("&", " and ").replace("%", " percent ")
                 result = re.sub('[^A-Za-z0-9]+\'', ' ', result)
                 result = ' '.join(result.split())
-            data.append(headline + ": <break time='250ms'/> " + result)
+            data.append(headline + ": " + result)
         for x in xrange(0, 5):
             result = data[x]
             news.append(result)
-        news = " <break time='500ms'/> ".join(news)
+        news = " ".join(news)
         newsReport = news + " <break time='1s'/> "
     except:
         newsReport = "I'm sorry, there was an error with the news feed."
