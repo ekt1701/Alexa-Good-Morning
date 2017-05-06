@@ -442,7 +442,7 @@ def reportAstronomy():
 def getSurf(intent, session):
     session_attributes = {}
     card_title = "Surf Conditions"
-    surfReport = "I'm sorry the surf report is currently broken."
+    surfReport = reportSurf
     speech_output = surfReport + ".   Would you like to hear something else?"
     reprompt_text = "Audio error, please repeat your request."
     should_end_session = False
