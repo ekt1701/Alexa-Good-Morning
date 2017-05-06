@@ -587,7 +587,7 @@ def reportHeadlineNews():
             result = data[x]
             news.append(result)
         news = " ".join(news)
-        newsReport = news + " <break time='1s'/> "
+        newsReport = news
     except:
         newsReport = "I'm sorry, there was an error with the news feed."
     return newsReport
